@@ -34,6 +34,7 @@
   flex-direction: row;
   height: 100%; 
   width: 100%;
+  position:relative;
 }
 
 .navbar{
@@ -48,6 +49,7 @@
 }
 
 .navEntry{
+  vertical-align:middle;
   margin: calc(10px + 0.25vmin);
 }
 
@@ -58,5 +60,14 @@
 
 /* pages */
 .landing{
-  margin: calc(20px + 2vmin);
+  /*margin: calc(20px + 2vmin);*/
+  width:100%;
+}
+
+.landing > #background{
+  width:100%;
+  height:100%;
+  position:fixed;
+  opacity:0.3;
+  background-color:pink;
 }

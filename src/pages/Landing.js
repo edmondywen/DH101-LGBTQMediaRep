@@ -6,9 +6,7 @@ function Landing(){
     return(
         <Template>
             <div className="landing">
-                <Tableau
-                url = 'https://public.tableau.com/shared/3K7KQN59J?:display_count=n&:origin=viz_share_link'
-                />
+                <div id="background"></div>
             </div>
         </Template>
     )
