@@ -13,7 +13,7 @@ class Test extends Component {
     const vizContainer = this.vizContainer;
     let viz = new window.tableau.Viz(vizContainer, vizUrl)
   }
- 
+
  
   render() {
     return (

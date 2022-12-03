@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import NavbarEntry from './NavbarEntry';
+import Logo from './Logo';
 import '../App.css';
 
 function Navbar(){
     return(
         <div className="navbar">
-            <NavbarEntry target="/" title="Home"></NavbarEntry>
-            <NavbarEntry target="/analysis" title="Introduction"></NavbarEntry>
-            <NavbarEntry target="/analysis" title="A Closer Look"></NavbarEntry>
+            <Logo title="animated icons"></Logo>
+            <NavbarEntry target="/analysis" title="Narrative"></NavbarEntry>
+            <NavbarEntry target="/analysis" title="Data Critique"></NavbarEntry>
             <NavbarEntry target="/analysis" title="About"></NavbarEntry>
+            <NavbarEntry target="/analysis" title="Bibliography"></NavbarEntry>
         </div>
     )
 }
