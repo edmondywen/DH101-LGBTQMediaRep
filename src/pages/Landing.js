@@ -8,7 +8,10 @@ function Landing(){
         <Template>
             <div className="landing">
                 <div id="heading">
-                    <p>Crafted by UCLA Digital Humanities students, this narrative analyzes the progression of queer portrayals since the 1990s  using an extensive Kaggle dataset as research surrounding this topic is still limited.</p>
+                    <div id="headingtext">
+                        <h1>Animated Icons</h1>
+                        <p>Crafted by UCLA Digital Humanities students, this narrative analyzes the progression of queer portrayals since the 1990s  using an extensive Kaggle dataset as research surrounding this topic is still limited.</p>
+                    </div>
                     <img src={bmo} alt="An image of BMO, a character from adventure time, dancing" id="bmo"></img>
                 </div>
                 <img src={questions} alt="research questions" id="questions"/>
