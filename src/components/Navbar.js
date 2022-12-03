@@ -7,10 +7,10 @@ function Navbar(){
     return(
         <div className="navbar">
             <Logo title="animated icons"></Logo>
-            <NavbarEntry target="/analysis" title="Narrative"></NavbarEntry>
+            <NavbarEntry target="/narrative" title="Narrative"></NavbarEntry>
             <NavbarEntry target="/analysis" title="Data Critique"></NavbarEntry>
-            <NavbarEntry target="/analysis" title="About"></NavbarEntry>
-            <NavbarEntry target="/analysis" title="Bibliography"></NavbarEntry>
+            <NavbarEntry target="/about" title="About"></NavbarEntry>
+            <NavbarEntry target="/bibliography" title="Bibliography"></NavbarEntry>
         </div>
     )
 }
