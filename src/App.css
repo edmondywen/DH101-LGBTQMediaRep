@@ -29,11 +29,17 @@
 }
 
 /* template */
+
+body{
+  overflow-x:clip;
+}
+
+
 #main{
   display: flex;
   flex-direction: column;
   height: 100vh; 
-  width: 100%;
+  width: 100vw;
   position:relative;
 }
 
@@ -68,7 +74,7 @@
 }
 
 .navEntry:hover{
-  /* background-color: rgba(238, 136, 102, 1); */
+   /*background-color: rgba(238, 136, 102, 1); */
   color: white;
   text-decoration: underline;
 }
@@ -109,6 +115,7 @@
   height: fit-content;
   width: 50vw;
   margin-left:10vw;
+  text-align:left;
 }
 
 #headingtext > p{
@@ -127,11 +134,13 @@
 
 #questionblock{
   width:100vw;
+  height:92vh;
   background-color:#D6BBE6;
 }
 
 #questions {
-  width: 60%;
+  height:90vh;
+  /*width: 60%;*/
 }
 
 #bmo {
@@ -141,6 +150,15 @@
   height: calc(50% + 20px);
 
 }
+
+.landing > #about{
+  width:40%;
+  text-align:left;
+  position:static;
+  align-self:flex-start;
+  margin:5vw;
+}
+
 
 #welcome{
   top: calc(20% + 20px);
