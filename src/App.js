@@ -10,7 +10,10 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Landing/>}></Route>
+            <Route path="/narrative" element={<Narrative/>}></Route>
             <Route path="/analysis" element={<Analysis/>}></Route>
+            <Route path="/about" element={<About/>}></Route>
+            <Route path="/bibliography" element={<Bibliography/>}></Route>
           </Routes>
         </BrowserRouter>
       </header>
