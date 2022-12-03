@@ -111,11 +111,12 @@ body{
 }
 
 #headingtext{
-  background-color: transparent;
+  background-color: rgba(255,255,255,0.25);
   height: fit-content;
-  width: 50vw;
+  width: fit-content;
   margin-left:10vw;
   text-align:left;
+  padding: 3vw;
 }
 
 #headingtext > p{
@@ -125,6 +126,7 @@ body{
 
 #headingtext > h1{
   color: #5A5A5A;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -147,8 +149,8 @@ body{
   /* position: absolute;
   top: 20vh;
   right: 10vw; */
-  height: calc(50% + 20px);
-
+  height: calc(60% + 20px);
+  align-self: flex-end;
 }
 
 .landing > #about{

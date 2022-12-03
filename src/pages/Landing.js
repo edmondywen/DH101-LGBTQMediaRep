@@ -10,7 +10,7 @@ function Landing(){
                 <div id="heading">
                     <div id="headingtext">
                         <h1>animated icons</h1>
-                        <p>Crafted by UCLA Digital Humanities students, this narrative analyzes the progression of queer portrayals since the 1990s  using an extensive Kaggle dataset as research surrounding this topic is still limited.</p>
+                        <p>Crafted by UCLA Digital Humanities students, this narrative analyzes the progression of queer portrayal in American animated media since the 1990s using an extensive Kaggle dataset.</p>
                     </div>
                     <img src={bmo} alt="An image of BMO, a character from adventure time, dancing" id="bmo"></img>
                 </div>
