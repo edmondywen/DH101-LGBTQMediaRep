@@ -1,6 +1,9 @@
 import './App.css';
 import Landing from './pages/Landing';
 import Analysis from './pages/Analysis';
+import Narrative from './pages/Narrative';
+import About from './pages/About';
+import Bibliography from './pages/Bibliography';
 import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom';
 
 function App() {
