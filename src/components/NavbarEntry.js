@@ -5,7 +5,7 @@ import '../App.css';
 function NavbarEntry(props){
     return(
         <div className="navEntry">
-            <Link to={props.target} style={{textDecoration: 'none', color: 'black'}}>{props.title}</Link>
+            <Link to={props.target} style={{textDecoration: 'none', color: '#5A5A5A'}}>{props.title}</Link>
         </div>
     )
 }

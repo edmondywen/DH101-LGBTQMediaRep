@@ -28,8 +28,12 @@
   }
 }
 
-/* template */
+/* footer */
+#Footer{
+  background-color: black;
+}
 
+/* template */
 body{
   overflow-x:clip;
 }
@@ -43,6 +47,7 @@ body{
   position:relative;
 }
 
+/* navbar */
 #logo{
   position:absolute;
   vertical-align: middle;
@@ -51,6 +56,11 @@ body{
   left: 3vw;
   align-items: center;
   font-weight: bold;
+  height: 5vh;
+}
+
+#headingtext > img{
+  height: 10vh;
 }
 
 .navbar{
@@ -71,6 +81,7 @@ body{
 .navEntry{
   /* vertical-align:middle; */
   margin-right: calc(50px + 0.5vmin);
+  color: #5A5A5A;
 }
 
 .navEntry:hover{
@@ -80,7 +91,7 @@ body{
 }
 
 
-/* pages */
+/* landing */
 .landing{
   /*margin: calc(20px + 2vmin);*/
   margin-top:8vh;
@@ -146,9 +157,6 @@ body{
 }
 
 #bmo {
-  /* position: absolute;
-  top: 20vh;
-  right: 10vw; */
   height: calc(60% + 20px);
   align-self: flex-end;
 }
@@ -161,6 +169,11 @@ body{
   margin:5vw;
 }
 
+#aboutcontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 #welcome{
   top: calc(20% + 20px);
@@ -171,6 +184,11 @@ body{
   text-align:left;
   position: relative;
 }
+
+#owl{
+  width: 10vw;
+}
+
 #title{
   width:fit-content;
   background: linear-gradient(90deg, #E40303, #FF8C00, #cabe12, #008026, #24408E, #732982);
