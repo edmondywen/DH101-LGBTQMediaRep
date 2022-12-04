@@ -161,6 +161,35 @@ body{
   margin:5vw;
 }
 
+#biographies{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items:top;
+  justify-content:center;
+}
+
+.bioblock{
+  width:300px;
+}
+
+.bioblock > img{
+  width:250px;
+  margin:25px;
+}
+
+#biorole{
+  font-size:large;
+  font-weight:bold;
+  margin:0.5em;
+}
+
+#bioabout, #biocharacter{
+  font-size:medium;
+  text-align:justify;
+  width:275px;
+  margin:12.5px;
+}
 
 #welcome{
   top: calc(20% + 20px);

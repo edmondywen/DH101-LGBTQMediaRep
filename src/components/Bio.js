@@ -9,6 +9,7 @@ function Bio(props){
             <header id="bioname">{props.name}</header>
             <p id="biorole">{props.role}</p>
             <p id="bioabout">{props.about}</p>
+            <p id="biocharacter">{props.char}</p>
         </div>
     )
 }
