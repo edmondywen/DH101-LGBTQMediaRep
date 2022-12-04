@@ -15,7 +15,7 @@ function About(){
     return(
         <Template>
             <div id="aboutpage">
-                <br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/>
                 <h1>Overview of a Digital Humanities Project</h1>
                 <div id="levels">
                     <header>Sources</header>
@@ -30,12 +30,12 @@ function About(){
                 </div>
                 <h1>About the Authors</h1>
                 <div id="biographies">
-                    <Bio image={ariana} name="Ariana Castro" role="Worked on the project" about=""></Bio>
-                    <Bio image={sara} name="Sara Hisamune" role="Worked on the project" about=""></Bio>
-                    <Bio image={satsuki} name="Satsuki Liu" role="Website configuration" about="Satsuki is a fourth-year computer science major with an interest in full-stack software development and Big Data. She was responsible for helping build the website using React and CSS." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}></Bio>
-                    <Bio image={an} name="An Nguyen" role="Worked on the project" about=""></Bio>
-                    <Bio image={edmond} name="Edmond Wen" role="Worked on the project" about=""></Bio>
-                    <Bio image={maleeha} name="Maleeha Zaman" role="Worked on the project" about=""></Bio>
+                    <Bio image={ariana} name="Ariana Castro" role="Worked on the project" about="" char=""/>
+                    <Bio image={sara} name="Sara Hisamune" role="Worked on the project" about="" char=""/> 
+                    <Bio image={satsuki} name="Satsuki Liu" role="Website configuration" about="Satsuki is a fourth-year computer science major with an interest in full-stack software development and Big Data. She was responsible for helping build the website using React and CSS." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}/>
+                    <Bio image={an} name="An Nguyen" role="Worked on the project" about="" char=""/> 
+                    <Bio image={edmond} name="Edmond Wen" role="Worked on the project" about="" char=""/> 
+                    <Bio image={maleeha} name="Maleeha Zaman" role="Worked on the project" about="" char=""/> 
                 </div>
                 <p>About page goes here</p>
             </div>
