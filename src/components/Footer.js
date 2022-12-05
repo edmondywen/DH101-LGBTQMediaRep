@@ -4,8 +4,8 @@ import React from 'react';
 function Footer({children}){
     return(
         <div id="Footer">
-            <p>This is a footer</p>
-            <button>hello</button>
+            {/* <p>This is a footer</p> */}
+            {/* <button>hello</button> */}
         </div>
     )
 }

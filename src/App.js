@@ -1,10 +1,10 @@
 import './App.css';
 import Landing from './pages/Landing';
-import Analysis from './pages/Analysis';
 import Narrative from './pages/Narrative';
 import About from './pages/About';
 import Bibliography from './pages/Bibliography';
-import { Routes, Route, Navigate, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import DataCritique from './pages/DataCritique';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Landing/>}></Route>
             <Route path="/narrative" element={<Narrative/>}></Route>
-            <Route path="/analysis" element={<Analysis/>}></Route>
+            <Route path="/critique" element={<DataCritique/>}></Route>
             <Route path="/about" element={<About/>}></Route>
             <Route path="/bibliography" element={<Bibliography/>}></Route>
           </Routes>

@@ -31,6 +31,7 @@
 /* footer */
 #Footer{
   background-image: url('assets/footer.svg');
+  min-height: 10vh;
 }
 
 /* template */
@@ -92,11 +93,8 @@ body{
 
 /* landing */
 .landing{
-  /*margin: calc(20px + 2vmin);*/
   margin-top:8vh;
   width:100%;
-  height:90%;
-  position:relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,11 +178,6 @@ body{
 
 #aboutdescription{
   width: 40vw;
-}
-
-#aboutpage > h1{
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 #owl{
@@ -295,4 +288,60 @@ body{
   -moz-text-fill-color:transparent;
   -o-text-fill-color:transparent;
   text-fill-color:transparent;
+}
+
+/* narrative page */
+.narrative{
+  margin-top:8vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* data critique page */
+.critique{
+  margin-top:8vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#critheading{
+  min-height: 80vh;
+  width: 100%;
+  background-image: url('assets/critique/data-header.svg');
+  background-size: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+#critheading > p{
+  font-size: 3em;
+}
+
+.copy{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.copy > p{
+  text-align: left;
+}
+
+.critique > #content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#three{
+  height: 70vh;
+  align-self: center;
 }
