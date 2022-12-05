@@ -294,6 +294,16 @@ body{
   background: lavender;
 }
 
+#biographies div:nth-child(1){
+  background: linear-gradient(180deg, #D60270 40%, #9B4F96 40%, 60%, #0038A8 60%);
+  color:white;
+}
+
+#biographies div:nth-child(2){
+  background: darkgreen;
+  color:white;
+}
+
 #biographies div:nth-child(4){
   background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #eee 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
 }

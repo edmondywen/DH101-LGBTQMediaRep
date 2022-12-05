@@ -18,7 +18,7 @@ function Landing(){
                     <img src={bmo} alt="BMO, a character from adventure time, dancing" id="bmo"></img>
                 </div>
                 <div id="about" align="left">
-                    <h1 id="aboutheading">about the project</h1>
+                    <h1 id="landaboutheading">about the project</h1>
                     <div id="aboutcontent">
                         <div id="aboutdescription">
                             <p><span style={{color: '730BF6', 'font-weight': 'bold'}}>animated icons</span> is a group project for an introductory Digital Humanities course taught at UCLA by Dr. Ashley Sanders Garcia in the fall quarter of 2022. In addition to Dr. Sanders, our team owes much of our work to the guidance of Grace Skalinder.</p>

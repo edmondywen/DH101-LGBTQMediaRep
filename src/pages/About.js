@@ -40,12 +40,12 @@ function About(){
                     </div>
                 </div>
                 <div id="about-auth">
-                    <h1>About the Authors</h1>
+                    <h1>about the authors</h1>
                     <div id="biographies">
-                        <Bio image={ariana} name="Ariana Castro" role="Worked on the project" about="" char=""/>
+                        <Bio image={ariana} name="Ariana Castro" role="Web Designer" about="Ariana is a second-year English major and Digitial Humanities minor. As web designer, she established guidelines for the project's fonts and color palette, handpicked images for each page, and illustrated graphics to enhance the site's overall aesthetic. She designed wireframes to organize all these components. Moreover, she assisted in the creation of visualization as well as written content." char={<span>Her queer icon is <b>Alucard</b> from <b>Castlevania</b>.</span>}/>
                         <Bio image={sara} name="Sara Hisamune" role="Editor & Data Specialist" about="Sara is a fourth year Economics major. As one of the project’s editors, she assisted in writing the project’s narrative and introductory paragraphs ー as well as editing these sections for grammatical and contextual flow. As one of the project’s data visualization specialists, she also contributed two of her data visualizations to the project and helped embed other members’ visualizations within the wider narrative." char={<span>Her favorite cartoon character is <b>Caitlyn</b> from <b>Arcane</b>!</span>}/> 
                         <div class="flexbreak-2"/>
-                        <Bio image={satsuki} name="Satsuki Liu" role="Developer" about="Satsuki is a fourth-year computer science major with an interest in full-stack software development and Big Data. She was responsible for helping build the website using React and CSS. Additionally, she was responsible for creating the layout of some of the final website's subpages, as well as designing one graphs used in the gender component of the narrative." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}/>
+                        <Bio image={satsuki} name="Satsuki Liu" role="Developer" about="Satsuki is a fourth-year Computer Science major with an interest in full-stack software development and Big Data. As one of two developers, she was responsible for helping build the website using React and CSS. Additionally, she was responsible for creating the layout of some of the final website's subpages, as well as designing one of the graphs used in the gender component of the narrative." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}/>
                         <div class="flexbreak-3"/>
                         <Bio image={an} name="An Nguyen" role="Worked on the project" about="" char=""/> 
                         <div class="flexbreak-2"/>
