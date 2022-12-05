@@ -9,6 +9,7 @@ function Bibliography(){
     return(
         <Template>
             <div>
+                <p>Bibliography page goes here</p>
                 <BibEntry citation="this is supposed to be an MLA citation" annotation="and this is gonna be our really long annotations"/>
                 <BibEntry citation="this is supposed to be an MLA citation" annotation="and this is gonna be our really long annotations"/>
                 <BibEntry citation="this is supposed to be an MLA citation" annotation="and this is gonna be our really long annotations"/>

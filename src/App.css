@@ -247,41 +247,63 @@ body{
   display:flex;
   flex-wrap:wrap;
   flex-direction: row;
-  align-items:top;
   justify-content:center;
 }
 
-.bioblock{
-  width:30vw;
-  margin:1%;
-  box-shadow: 10px 10px 5px;
+.flexbreak-3{
+  flex-basis:100%;
 }
 
-#biographies div:nth-child(3){
+.bioblock{
+  width:20vw;
+  margin:1%;
+  /*box-shadow: 10px 10px 5px;*/
+}
+
+#biographies div:nth-child(4){
   background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #eee 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
 }
 
 #bioname{
-  font-size:2em;
+  font-size:1.5em;
 }
 
 .bioblock > img{
-  width:25vw;
-  margin:2.5vw;
+  width:17.5vw;
+  margin:1.25vw;
   margin-bottom:0;
 }
 
 #biorole{
-  font-size:larger;
+  font-size:1em;
   font-weight:bold;
   margin:0.5em;
+  margin-top:0;
 }
 
 #bioabout, #biocharacter{
-  font-size:1em;
-  text-align:justify;
-  width:27.5vw;
-  margin:1.25vw;
+  font-size:0.5em;
+  text-align:center;
+  width:18vw;
+  margin:1vw;
+}
+
+@media screen and (max-width: 1400px) {
+  .bioblock{
+    width:40vw;
+  }
+  .bioblock > img{
+    width:35vw;
+    margin:2.5vw;
+  }
+  #bioabout, #biocharacter{
+    font-size:1em;
+    width:37.5vw;
+    margin:1.25vw;
+  }
+  .flexbreak-3{
+    flex-basis:0;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -294,9 +316,8 @@ body{
   }
   #bioabout, #biocharacter{
     font-size:1em;
-    text-align:justify;
-    width:77.5vw;
-    margin:1em;
+    width:75vw;
+    margin:2.5vw;
   }
 }
 

@@ -38,8 +38,11 @@ function About(){
                 <div id="biographies">
                     <Bio image={ariana} name="Ariana Castro" role="Worked on the project" about="" char=""/>
                     <Bio image={sara} name="Sara Hisamune" role="Worked on the project" about="" char=""/> 
-                    <Bio image={satsuki} name="Satsuki Liu" role="Website configuration" about="Satsuki is a fourth-year computer science major with an interest in full-stack software development and Big Data. She was responsible for helping build the website using React and CSS." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}/>
+                    <div class="flexbreak-2"/>
+                    <Bio image={satsuki} name="Satsuki Liu" role="Web Development" about="Satsuki is a fourth-year computer science major with an interest in full-stack software development and Big Data. She was responsible for helping build the website using React and CSS." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}/>
+                    <div class="flexbreak-3"/>
                     <Bio image={an} name="An Nguyen" role="Worked on the project" about="" char=""/> 
+                    <div class="flexbreak-2"/>
                     <Bio image={edmond} name="Edmond Wen" role="Worked on the project" about="" char=""/> 
                     <Bio image={maleeha} name="Maleeha Zaman" role="Worked on the project" about="" char=""/> 
                 </div>
