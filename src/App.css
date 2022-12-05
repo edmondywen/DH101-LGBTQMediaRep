@@ -227,12 +227,19 @@ body{
   display:inline-block;
 }
 
-#levels > header{
-  font-size:2em;
-  text-decoration: underline;
+#levels > *{
+  background:#eeeeee;
+  padding:1em;
+  margin-bottom:3em;
 }
 
-#levels > p{
+#levels > * > header{
+  font-size:2em;
+  text-decoration: underline;
+  text-align:left;
+}
+
+#levels > * > p{
   text-align: justify;
 }
 
@@ -245,25 +252,52 @@ body{
 }
 
 .bioblock{
-  width:300px;
+  width:30vw;
+  margin:1%;
+  box-shadow: 10px 10px 5px;
+}
+
+#biographies div:nth-child(3){
+  background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #eee 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
+}
+
+#bioname{
+  font-size:2em;
 }
 
 .bioblock > img{
-  width:250px;
-  margin:25px;
+  width:25vw;
+  margin:2.5vw;
+  margin-bottom:0;
 }
 
 #biorole{
-  font-size:large;
+  font-size:larger;
   font-weight:bold;
   margin:0.5em;
 }
 
 #bioabout, #biocharacter{
-  font-size:medium;
+  font-size:1em;
   text-align:justify;
-  width:275px;
-  margin:12.5px;
+  width:27.5vw;
+  margin:1.25vw;
+}
+
+@media screen and (max-width: 800px) {
+  .bioblock{
+    width:80vw;
+  }
+  .bioblock > img{
+    width:75vw;
+    margin:2.5vw;
+  }
+  #bioabout, #biocharacter{
+    font-size:1em;
+    text-align:justify;
+    width:77.5vw;
+    margin:1em;
+  }
 }
 
 #welcome{
