@@ -8,7 +8,7 @@ function Template({children}){
         <div id="main">
             <Navbar></Navbar>
             {children}
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </div>
     )
 }
