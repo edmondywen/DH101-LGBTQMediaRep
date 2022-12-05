@@ -5,6 +5,8 @@ import char from '../assets/critique/datacritiqueimages.svg';
 function DataCritique(){
     return(
         <Template>
+            { /* So, for cross-linking, we're going to need to do some JS trickery because otherwise it's kind of messy */ }
+            { /* I will work on this later. - Satsuki */ }
             <div className="critique">
                 <div id="critheading">
                     <p>about the data</p>
