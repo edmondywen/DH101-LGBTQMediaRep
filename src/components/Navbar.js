@@ -11,7 +11,7 @@ function Navbar(){
             <NavbarEntry target="/critique" title="Data Critique"></NavbarEntry>
             <NavbarEntry target="/narrative" title="Narrative"></NavbarEntry>
             <NavbarEntry target="/about" title="About"></NavbarEntry>
-            <NavbarEntry target="/bibliography" title="Bibliography"></NavbarEntry>
+            <NavbarEntry target="/bibliography" title="Sources"></NavbarEntry>
         </div>
     )
 }
