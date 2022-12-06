@@ -216,6 +216,14 @@ body{
 
 /* about page */
 
+#aboutpage{
+  margin-top:8vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #aboutheading{
   min-height: 80vh;
   width: 100%;
@@ -225,7 +233,6 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom:0;
 }
 
 #aboutheading > p{
@@ -242,6 +249,7 @@ body{
 #levelwrapper{
   padding-top:50px;
   background:lavender;
+  width:100%;
 }
 
 #levels{
@@ -271,6 +279,7 @@ body{
   padding-top:10px;
   background:rgb(162, 162, 204);
   padding-bottom:100px;
+  margin:0;
 }
 
 #biographies{
@@ -305,7 +314,7 @@ body{
 }
 
 #biographies div:nth-child(4){
-  background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #eee 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
+  background: linear-gradient(180deg, #5BCEFA 20%, #F5A9B8 20%, 40%, #FFF 40%, 60%, #F5A9B8 60%, 80%, #5BCEFA 80%);
 }
 
 
@@ -334,7 +343,7 @@ body{
   margin:1vw;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1650px) {
   .bioblock{
     width:40vw;
   }
@@ -367,6 +376,27 @@ body{
   }
 }
 
+#acknowledgements{
+  background:rgb(121, 82, 121);
+  padding:0;
+  top:-50px;
+  color:white;
+  padding-top:25px;
+  display:inline-block;
+  width:100vw;
+}
+
+#thisisstupid {
+  background:lavender;
+  color:black;
+  text-align:left;
+  width:60vw;
+  padding:1em;
+  margin-bottom:3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Bibliography & Acknowledgements Page, liberally stolen from Edmond */
 .bibpage{
   margin-top:8vh;
@@ -374,6 +404,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  position:relative;
 }
 
 #bibheading {
@@ -395,16 +426,20 @@ body{
 
 #bibliography{
   text-align:left;
+  background:lavender;
+  width:100%;
+  align-items:center;
+  position:relative;
 }
 
 .bibentry{
   width:80vw;
-  margin-left:5vw;
-  margin-right:5vw;
+  margin-left:calc(10vw - 0.5%);
+  justify-content:center;
   margin-bottom:5vh;
   padding:1%;
   font-size:1em;
-  background:rgba(220, 220, 220, 0.8);
+  background:rgba(255, 255, 255, 0.5);
 }
 
 .bibentry > p{
@@ -418,11 +453,11 @@ body{
   margin-bottom: 0;
 }
 
-#bibliography div:nth-child(1) > #anno2, #bibliography div:nth-child(1) > #anno3{
+#bibliography div:nth-child(2) > #anno2, #bibliography div:nth-child(2) > #anno3{
   margin-bottom: 1em;
 }
 
-#bibliography div:nth-child(n+2) > #anno1{
+#bibliography div:nth-child(n+3) > #anno1{
   margin-bottom:0;
 }
 

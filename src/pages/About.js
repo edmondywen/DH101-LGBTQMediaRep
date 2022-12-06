@@ -42,7 +42,7 @@ function About(){
                 <div id="about-auth">
                     <h1>about the authors</h1>
                     <div id="biographies">
-                        <Bio image={ariana} name="Ariana Castro" role="Web Designer" about="Ariana is a second-year English major and Digitial Humanities minor. As web designer, she established guidelines for the project's fonts and color palette, handpicked images for each page, and illustrated graphics to enhance the site's overall aesthetic. She designed wireframes to organize all these components. Moreover, she assisted in the creation of visualization as well as written content." char={<span>Her queer icon is <b>Alucard</b> from <b>Castlevania</b>.</span>}/>
+                        <Bio image={ariana} name="Ariana Castro" role="Web Designer" about="Ariana is a second-year English major and Digitial Humanities minor. As web designer, she established guidelines for the project's fonts and color palette, handpicked images for each page, and illustrated graphics to enhance the site's overall aesthetic. She designed wireframes to organize all these components. Moreover, she assisted in the creation of data visualizations as well as written content." char={<span>Her queer icon is <b>Alucard</b> from <b>Castlevania</b>.</span>}/>
                         <Bio image={sara} name="Sara Hisamune" role="Editor & Data Specialist" about="Sara is a fourth year Economics major. As one of the project’s editors, she assisted in writing the project’s narrative and introductory paragraphs ー as well as editing these sections for grammatical and contextual flow. As one of the project’s data visualization specialists, she also contributed two of her data visualizations to the project and helped embed other members’ visualizations within the wider narrative." char={<span>Her favorite cartoon character is <b>Caitlyn</b> from <b>Arcane</b>!</span>}/> 
                         <div class="flexbreak-2"/>
                         <Bio image={satsuki} name="Satsuki Liu" role="Developer" about="Satsuki is a fourth-year Computer Science major with an interest in full-stack software development and Big Data. As one of two developers, she was responsible for helping build the website using React and CSS. Additionally, she was responsible for creating the layout of some of the final website's subpages, as well as designing one of the graphs used in the gender component of the narrative." char={<span>Their favorite character from the dataset is <b>Stat</b> from <b>Q-Force</b>.</span>}/>
@@ -51,6 +51,12 @@ function About(){
                         <div class="flexbreak-2"/>
                         <Bio image={edmond} name="Edmond Wen" role="Developer" about="" char=""/> 
                         <Bio image={maleeha} name="Maleeha Zaman" role="Project Manager" about="Maleeha is a second-year Cognitive Science major and Digital Humanities minor. As project manager, she oversaw the progress of the project, scheduling meetings, divided tasks, and communicated between members. She assisted in formatting the website, and created the timeline and map used in the narrative. Additionally, she assisted in editing and creating written and visual content, as well as developing a narrative across the group’s data visualizations. She also helped write the sourcing, processing, and presentation sections in the About page." char={<span>Her favorite cartoon character is <b>Marceline</b> from <b>Adventure Time</b>!</span>}/> 
+                    </div>
+                </div>
+                <div id="acknowledgements">
+                    <h1>acknowledgements</h1>
+                    <div id="thisisstupid">
+                        <p>We want to thank Dr. Ashley Sanders and our T.A. Grace Skalinder for sharing their passion about Digital Humanities with us by introducing us to all the tools we need and providing workshops through this wonderful course. Their feedback, patience, and endless support helped us in expanding our research skills and producing the final product.</p>
                     </div>
                 </div>
             </div>
