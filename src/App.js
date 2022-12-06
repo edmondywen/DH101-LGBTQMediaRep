@@ -1,4 +1,5 @@
 import './App.css';
+import ScrollToTop from './components/ScrollToTop.js';
 import Landing from './pages/Landing';
 import Narrative from './pages/Narrative';
 import About from './pages/About';
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <BrowserRouter>
+          <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Landing/>}></Route>
             <Route path="/narrative" element={<Narrative/>}></Route>
