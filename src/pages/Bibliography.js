@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 //import Tableau from "tableau-react";
 import Template from './Template';
 import BibEntry from '../components/BibEntry'

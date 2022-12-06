@@ -109,7 +109,8 @@ body{
 }
 
 #heading{
-  min-height: 100%;
+  min-height: 80vh;
+  max-height: 80vh;
   width: 100%;
   background-image: url('assets/Homepage1.svg');
   background-size: 100vw;
@@ -218,6 +219,7 @@ body{
 
 #aboutheading{
   min-height: 80vh;
+  max-height: 80vh;
   width: 100%;
   background-image: url(assets/about-header.png);
   background-size: 100vw;
@@ -259,7 +261,7 @@ body{
 
 #levels > * > header{
   font-size:2em;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-align:left;
 }
 
@@ -447,6 +449,47 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: lavender;
+}
+
+#narrheading{
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 100%;
+  background-image: url('assets/narrative/narrativehead.svg');
+  background-size: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+#narrheading > p{
+  font-size: 3em;
+  color:white;
+  text-shadow:5px 5px 5px black;
+}
+
+#intro{
+  margin-top: 10vh;
+}
+
+#intro1{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+}
+
+#intro2{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+#ourfindings{
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /* data critique page */
@@ -456,10 +499,12 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: lavender;
 }
 
 #critheading{
   min-height: 80vh;
+  max-height: 80vh;
   width: 100%;
   background-image: url('assets/critique/data-header.svg');
   background-size: 100vw;
@@ -471,22 +516,33 @@ body{
 
 #critheading > p{
   font-size: 3em;
+  color:white;
+  text-shadow:5px 5px 5px black;
 }
 
 .copy{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1em;
+  margin-bottom: 50px;
+  width: 80vw;
 }
 
 .copy > p{
   text-align: left;
 }
 
+.copy > ol{
+  text-align: left;
+  font-weight: bold;
+}
+
 .critique > #content{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding-left: 5vw;
   padding-right: 5vw;
 }
@@ -494,4 +550,32 @@ body{
 #three{
   height: 70vh;
   align-self: center;
+  margin-bottom: 50px;
+}
+
+/* Visualization */
+.Visualization{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy > h2{
+  text-align: left;
+}
+
+.copy > h3{
+  color: #A259FF;
+  font-weight: bold;
+  text-align: left;
+}
+
+#challengestop{
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  margin-top: 5vh;
 }
