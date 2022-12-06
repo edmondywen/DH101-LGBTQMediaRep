@@ -1,8 +1,8 @@
 import React from 'react';
 import Template from './Template';
-import questions from '../assets/research-questions.svg';
+import questions from '../assets/research-questions.png';
 import bmo from '../assets/dancingbmo1.svg';
-import logo from '../assets/animatedicons.svg';
+import logopng from '../assets/animatedicons.png';
 import owl from '../assets/owlcitylanding.svg';
 import lady from '../assets/lady.svg';
 
@@ -12,7 +12,7 @@ function Landing(){
             <div className="landing">
                 <div id="heading">
                     <div id="headingtext">
-                        <img src={logo} alt="the project logo which is 'animated icons' in gray cursive font"></img>
+                        <img src={logopng} alt="the project logo which is 'animated icons' in gray cursive font"></img>
                         <p>Crafted by UCLA Digital Humanities students, this narrative analyzes the progression of queer portrayal in American animated media since the 1990s using an extensive Kaggle dataset.</p>
                     </div>
                     <img src={bmo} alt="BMO, a character from adventure time, dancing" id="bmo"></img>
