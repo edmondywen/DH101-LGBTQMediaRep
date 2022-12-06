@@ -326,7 +326,7 @@ body{
 }
 
 #biographies div:nth-child(8){
-  background: #1b6b99;
+  background: linear-gradient(180deg, #D60270 40%, #9B4F96 40%, 60%, #0038A8 60%);
   color:white;
 }
 
