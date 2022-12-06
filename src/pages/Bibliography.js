@@ -32,6 +32,35 @@ function Bibliography(){
                 <BibEntry citation={<span>The Williams Institute at UCLA School of Law.<wbr/> “ADULT LGBT POPULATION IN THE UNITED STATES.<wbr/>” The Williams Institute at UCLA School of Law, 2019.<wbr/> http://<wbr/>www.<wbr/>jstor.<wbr/>org/<wbr/>stable/<wbr/>resrep34904.<wbr/></span>} anno1="This investigation, conducted by the UCLA Williams Institute, provides a demographic breakdown of the LGBT population in the US based on a series of large, population-based surveys. The report provides insights into which states have the highest percentages of LGBT people; how LGBT individuals fare on a range of socioeconoic, wellbeing, and health indicators; as well as the gender and ethnic breakdown of the LGBT community in the US. These insights will help us explore how changes in queer representation in animated shows have coincided with changes in the real-life US LGBT population. For example, have the annual demographic breakdown of the US LGBT population been accurately reflected in the ethnic, gender and sexuality breakdowns of queer characters in animated shows? We can compare the demographic breakdown of queer animated characters in our dataset with the demographic breakdown of US individuals provided in this report to answer such research questions."/>
                 <BibEntry citation={<span>“X Gender Marker Available on U.<wbr/>S.<wbr/> Passports Starting April 11 -<wbr/> United States Department of State.<wbr/>” U.<wbr/>S.<wbr/> Department of State.<wbr/> U.<wbr/>S.<wbr/> Department of State, March 31, 2022.<wbr/> https://<wbr/>www.<wbr/>state.<wbr/>gov/<wbr/>x-<wbr/>gender-<wbr/>marker-<wbr/>available-<wbr/>on-<wbr/>u-<wbr/>s-<wbr/>passports-<wbr/>starting-<wbr/>april-<wbr/>11/<wbr/>.<wbr/></span>} anno1=""/>                </div>
             </div>
+            { /* :O <( dude i can't read this portion of the code it's a comment ) */ }
+            <div id="attribution-wrapper">
+                <div id="attributions"> 
+                    <h1>attributions</h1>
+                    <p>This websiste is published under the MIT License, and all images are used under the CC BY 4.0 license. Theyz are attributed to the original creators as follows:</p>
+                    <h2>landing page</h2>
+                    <p><a href="https://i.gifer.com/origin/51/51400a9b5b73916bc996914bcc6e4c4e.gif">BMO of <em>Adventure Time</em></a> is owned by Warner Bros. Discovery.</p>
+                    <p><a href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/97a77168-2be8-4b24-b4ac-6c18fad9b82b/de68add-083d4340-29cb-49ed-98c4-67f1d8fc9e3f.png/v1/fill/w_539,h_1484,strp/luz__the_owl_house__png_by_thegothengine_de68add-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI4NSIsInBhdGgiOiJcL2ZcLzk3YTc3MTY4LTJiZTgtNGIyNC1iNGFjLTZjMThmYWQ5YjgyYlwvZGU2OGFkZC0wODNkNDM0MC0yOWNiLTQ5ZWQtOThjNC02N2YxZDhmYzllM2YucG5nIiwid2lkdGgiOiI8PTgzMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.flKu1iZvTFxGPYDlA-XntPx5nevfnc4DMWwGrqO25wU">Luz of <em>The Owl House</em></a> is owned by Disney.</p>
+                    <p><a href="https://static.wikia.nocookie.net/shera-and-the-princesses-of-power/images/6/67/BattlerSheRaRender.png/revision/latest?cb=20190501230301&format=original">Adora of <em>She-Ra</em></a> is owned by Netflix.</p>
+                    <h2>data critque</h2>
+                    <p><a href="https://wallpapercave.com/w/wp6160846">The background</a> is from <em>Steven Universe</em>, and is owned by Warner Bros. Discovery.</p>
+                    <p><a href="https://static.wikia.nocookie.net/voltron/images/b/b6/Shiro_%28Paladin%29_-_LD.png/revision/latest/scale-to-width-down/600?cb=20160615042432">Shiro of <em>Voltron</em></a> is owned by Netflix.</p>
+                    <p><a href="https://static.wikia.nocookie.net/shera-and-the-princesses-of-power/images/a/a1/NetossaRenderHQ.png/revision/latest?cb=20200525123929">Netosssa of <em>She-Ra</em></a> is owned by Netflix.</p>
+                    <p><a href="https://static.wikia.nocookie.net/lgbt-characters/images/0/00/Stacks.png/revision/latest?cb=20210715215418">Stacks of <em>Craig of the Creek</em></a> is owned by Warner Bros. Discovery.</p>
+                    <h2>narrative</h2>
+                    <p><a href="https://images6.fanpop.com/image/photos/41800000/She-Ra-and-the-Princesses-of-Power-universe-backgrounds-she-ra-and-the-princesses-of-power-netflix-41800591-1280-720.jpg">The background</a> is from <em>She-Ra</em>, and is owned by Netflix.</p>
+                    <p><a href="https://media.gettyimages.com/id/857950402/photo/steven-universe-creator-voice-actor-and-author-rebecca-sugar-attends-the-steven-universe.jpg?s=612x612&w=0&k=20&c=T1utmd8Fm9xQl3wgEAkkKF48PSvfP-kzezS47i1ZFHY=">Rebecca Sugar</a>'s photo was taken by GettyImages.</p>
+                    <p><a href="https://media.them.us/photos/5ba95817fc82350011a7108d/16:9/w_2560%2Cc_limit/bongrs4t4rlz.jpg">Yolanda and Todd of <em>Bojack Horseman</em></a> are owned by Netflix.</p>
+                    <h2>about</h2>
+                    <p><a href="https://www.awn.com/sites/default/files/styles/original/public/image/attached/1054568-wolfkipowater-1280.jpg?itok=-JavATgf">The background</a> is from <em>Kipo and the Age of the Wonderbeasts</em>, and is owned by Netflix.</p>
+                    <p><a href="https://twitter.com/some_nerd314/status/1599682569637097472">Satsuki's portrait</a> was illustrated by <a href="https://twitter.com/pixequil">Satomi Hinatsu</a>.</p>
+                    <p>The layout for pride flag backgrounds were taken from <a href="http://barchok.com/flags.html">Todd Barchok</a>.</p>
+                    <h2>bibliography</h2>
+                    <p><a href="https://i.kym-cdn.com/photos/images/original/001/297/627/462.png">The background</a> is from <em>OK K.O.!</em> and is owned by Warner Bros. Discovery.</p>
+                    <h2>other</h2>
+                    <p>Layout inspiration was taken from some previous Digital Humanities 101 projects, such as <a href="https://airqualitree.github.io/page6.html">Airqualitree</a> and <a href="https://spotify.humspace.ucla.edu/">the Spotify project</a>.</p>
+                    <p></p>
+                </div>
+            </div>
         </Template>
     )
 }

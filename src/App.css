@@ -477,6 +477,30 @@ body{
   margin-bottom:0;
 }
 
+#attribution-wrapper{
+  background:rgb(121, 82, 121);
+  padding:0;
+  top:-50px;
+  color:white;
+  padding-top:25px;
+  display:inline-block;
+  width:100vw;
+}
+
+#attributions{
+  margin-left:auto;
+  margin-right:auto;
+  width:80vw;
+  text-align:left;
+}
+
+#attributions a{
+  color:white;
+}
+#attributions a:visited{
+  color:lightslategrey;
+}
+
 #welcome{
   top: calc(20% + 20px);
   left: calc(15%);
